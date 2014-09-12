@@ -1,0 +1,113 @@
+
+<div metal:use-macro="layout">
+
+
+
+<div metal:fill-slot="content">
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="${request.static_url('arrancapr:static/img/slide-1.jpg')}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="${request.static_url('arrancapr:static/img/slide-2.jpg')}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="${request.static_url('arrancapr:static/img/slide-3.jpg')}" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">The Mission
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="${request.static_url('arrancapr:static/img/intro-pic.jpg')}"  alt="">
+                    <hr class="visible-xs">
+                    <p> Help transform Puerto Rico's economy into one that depends on native enterprizes instead of foreign ones. Solving problems that we identify locally but export to the global market. </p>
+                    <p> Click <a>here</a> for more information on this problems.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Join us
+                    </h2>
+                    <hr>
+                    <div class ="text-center">
+                    <form>
+                        Name: <input type="text" /><br/>
+                        Email: <input type="text" /><br/>
+                        <input type="submit" text ="submit" value="submit"/>
+                    </form>
+                    </div>
+                        </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Pillars of our organization
+                    </h2>
+                    <hr>
+                    <ul>
+                        <li><strong>Technical Solutions</strong> - Develop the maker scene and encourage startup creation by decentralizing the scene, providing funding for meeting centers and connections to powerful resources.</li>
+                        <li><strong>Global marketing and sales</strong> - Inculcate techniques for global marketing and how to correctly export sales from the island by creating a collection of examples and classes that explain relevant models. Additionally impulse the creation of marketplaces needed to energize this activities.</li>
+                        <li><strong>Develop local creative talent</strong> - Develop our creative talent on UX design, 3D model creation, Rapid prototype creation, product digital photography, microstock opportunities and videography. Its a new wave of opportunities for artists.</li>
+                        <li><strong>Develop sustainable and vertical crops</strong> - Due to our island size we have the need to grow more food in our limited space sponsor research and implementations that head towards this goal.</li>
+                        <li><strong>Renew and create business infrastructure</strong> - Restore commercial spaces to support the other pillars with infrastructure that will serve the country for the next 20 years.</li>
+                    </ul>
+                    <p> Go to the projects page and see what we are working on and how you can <a>help</a>. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- JavaScript -->
+    <script src="${request.static_url('arrancapr:static/js/jquery-1.10.2.js')}"></script>
+    <script src="${request.static_url('arrancapr:static/js/bootstrap.js')}"></script>
+    <script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+</div>
+</div>

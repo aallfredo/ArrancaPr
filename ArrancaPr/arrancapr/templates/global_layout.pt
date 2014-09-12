@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      metal:define-macro="layout">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<title>Arrancapr: Creciendo con Puerto Rico en el nuevo milenio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="${request.static_url('arrancapr:static/css/bootstrap.css')}" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="${request.static_url('arrancapr:static/css/business-casual.css')}" rel="stylesheet">
+</head>
+
+<body>
+<div class="brand"><img width="100px" height="100px" src="${request.static_url('arrancapr:static/img/logo.png')}" />Arranca PR</div>
+    <div class="address-bar">Isabela PR | contact@arrancapr.org</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Business Casual</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li><a href="about">About</a>
+                    </li>
+                    <li><a href="project">Projects</a>
+                    </li>
+                    <li><a href="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div metal:define-slot="content">
+</div>
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; arrancapr 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
