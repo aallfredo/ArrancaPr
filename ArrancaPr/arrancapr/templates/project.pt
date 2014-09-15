@@ -2,52 +2,82 @@
 <div metal:fill-slot="content">
 
     <div class="container">
-
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
+                    <p>This page lists all the projects that the association is currently working and their current funding levels.</p>
+                </div>
+                <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Company <strong>blog</strong>
+                    <h2 class="intro-text text-center">
+                        <strong>Courses</strong>
                     </h2>
                     <hr>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <ul class="pager">
-                        <li class="previous"><a href="#">&larr; Older</a>
-                        </li>
-                        <li class="next"><a href="#">Newer &rarr;</a>
-                        </li>
+                <div class="col-lg-12 text-left">
+                    <p>Arranca PR will be teaching organized lessons on skills to get jobs that provide services that can be sold globally.</p>
+                    <p>The first two classes will be:</p>
+                    <ul>
+                          <li>
+                            <p>12 week basic programming course in python(2.5 hours of class per week)</p>
+                            <p>
+                                Only 10 spots are available for the course. Register Below(note need to use a google email). The class will be given by Alfredo Alvarez via google hangouts on air. First day will be on
+                                <strong>October 13th at 7:00 pm</strong>.
+                                <form>
+                                Name: <input type="text" /><br/>
+                                Email: <input type="text" /><br/>
+                                <input type="submit" text ="submit" value="submit"/>
+                                </form>
+                            </p>
+                          </li>
+                          <li>
+                              <p>4 weeks How to create online books(1 hour of class per week)</p>
+                              This course registration will open on <strong>October 1st</strong>.
+                          </li>
                     </ul>
+                    <br>
+                    <p>Current Funding 0 dollars of a total of a needed 3000</p>
+                    <p>Status:Funding would help us grow</p>
+                    <p><i>Funding for courses will help pay for non-volunteers instructors and materials for courses that are more hands on.</i><p>
+                    <a href="contact" class="btn btn-default btn-lg">Donate</a>
+
+                </div>
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Hackerspace</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p>Arranca PR big project for the year is to create a hackerspace in the Northwest of the island and use to provide lessons on computer programming, 3d printing, Product Creation With Arduino and custom manufacturing...</p>
+                    <p>In order for it to happen we are planning to launch a kickstarter during late october to raise the funds. If we can raise any funds previous to the kickstarter that would help make our campaign successful.</p>
+                    <p>Sign up below to get notification on this event</p>
+                    <form>
+                        Email: <input type="text" /><br/>
+                        <input type="submit" text ="submit" value="submit"/>
+                    </form>
+
+                    <br>
+                    <p>Current Funding 0 dollars of a total 15000 needed</p>
+                    <p>Status:Pre-Raising funding before the kickstarter kickoff.</p>
+                    <p><i>15000 is the minimum amount of money to buy equipment and run the center for a year using volunteers. Ideally we would like to go over the amount to hire at least one paid part time trainer.</i><p>
+                    <a href="contact" class="btn btn-default btn-lg">Donate</a>
+
+                </div>
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Corporate Overhead</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p>Arranca PR is a non profit corporation in Puerto Rico currently waiting for 501c3 status from the federal government. In order to comply with all the rules and regulations this entitles it has a director on staff, lawyers fees and accounting procedures that need to be done. This project will always be here in order to give transparency and control to the user to where is he contributing his money.</p>
+                    <br>
+                    <p>Current Funding 1100 dollars of a total 9000 needed</p>
+                    <p>Status:We need some donations or we will start having payroll problems in two months.</p>
+                    <p><i>Ideally we would like to raise 20000 a year so that we could make or director position full time and apply to grants to fund the rest of the projects</i><p>
+                    <a href="contact" class="btn btn-default btn-lg">Donate</a>
+
                 </div>
             </div>
         </div>
