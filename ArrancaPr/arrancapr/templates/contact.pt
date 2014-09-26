@@ -35,7 +35,7 @@
                     <h2 class="intro-text text-center">Contact <strong>form</strong>
                     </h2>
                     <hr>
-                    <p> Have a question or proposition you want us to hear use the form below.</p>
+                    <p> Have a question or a proposition you want us to hear about? Please fill out the form below and we'll get back to you as soon as possible.</p>
                     <form role="form" method="POST" action="/contact">
                         <div class="row">
                             <div class="form-group col-lg-4">

@@ -51,8 +51,8 @@
                     <hr>
                     <img class="img-responsive img-border img-left" src="${request.static_url('arrancapr:static/img/intro-pic.jpg')}"  alt="">
                     <hr class="visible-xs">
-                    <p> Help transform Puerto Rico's economy into one that depends on native enterprizes instead of foreign ones. Solving problems that we identify locally but export to the global market. </p>
-                    <p> Click <a>here</a> for more information on this problems.</p>
+                    <p> Help transform Puerto Rico's economy into one that is dependent on native and local enterprises instead of foreign ones. </p>
+                    <p> Click <a>here</a> for more information on these problems.</p>
                 </div>
             </div>
         </div>
@@ -86,7 +86,6 @@
                         <li><strong>Technical Solutions</strong> - Develop the maker scene and encourage startup creation by decentralizing the scene, providing funding for meeting centers and connections to powerful resources.</li>
                         <li><strong>Global marketing and sales</strong> - Inculcate techniques for global marketing and how to correctly export sales from the island by creating a collection of examples and classes that explain relevant models. Additionally impulse the creation of marketplaces needed to energize this activities.</li>
                         <li><strong>Develop local creative talent</strong> - Develop our creative talent on UX design, 3D model creation, Rapid prototype creation, product digital photography, microstock opportunities and videography. Its a new wave of opportunities for artists.</li>
-                        <li><strong>Develop sustainable and vertical crops</strong> - Due to our island size we have the need to grow more food in our limited space sponsor research and implementations that head towards this goal.</li>
                         <li><strong>Renew and create business infrastructure</strong> - Restore commercial spaces to support the other pillars with infrastructure that will serve the country for the next 20 years.</li>
                     </ul>
                     <p> Go to the projects page and see what we are working on and how you can <a href="project">help</a>. </p>
