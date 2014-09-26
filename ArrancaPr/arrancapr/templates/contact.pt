@@ -15,7 +15,7 @@
                 <p>For Donations please send a check addressed to the following address:</p>
                 <p><strong>Arranca P.R., Corp. <br>P.O. Box 70  .<br>Isabela P.R. 00662</strong>
                     </p>
-                    <p>or via bank transfer to the account <strong>3004914057</strong> in Santander </p>
+                    <p>or via bank transfer contact us for details. </p>
                 </div>
                 <div class="col-md-4">
                     <p>Phone: <strong>(787)-528-0669 </strong>
@@ -36,24 +36,24 @@
                     </h2>
                     <hr>
                     <p> Have a question or proposition you want us to hear use the form below.</p>
-                    <form role="form">
+                    <form role="form" method="POST" action="/contact">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Name</label>
-                                <input type="text" class="form-control">
+                                <input type="text" name="name" class="form-control">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control">
+                                <input type="email" name="email" class="form-control">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control">
+                                <input type="tel" name="tel" class="form-control">
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label>Message</label>
-                                <textarea class="form-control" rows="6"></textarea>
+                                <textarea class="form-control" name="body" rows="6"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">

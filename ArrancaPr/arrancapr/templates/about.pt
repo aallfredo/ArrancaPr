@@ -33,13 +33,13 @@
                     <hr>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="${request.static_url('arrancapr:static/img/widalis.jpg')}" alt="">
                     <h3>Widalys Ramos
                         <small>Director</small>
                     </h3>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="${request.static_url('arrancapr:static/img/alfredo.jpg')}" alt="">
                     <h3>Alfredo Alvarez
                         <small>Secretary</small>
                     </h3>

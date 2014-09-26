@@ -23,10 +23,11 @@
                             <p>
                                 Only 10 spots are available for the course. Register Below(note need to use a google email). The class will be given by Alfredo Alvarez via google hangouts on air. First day will be on
                                 <strong>October 13th at 7:00 pm</strong>.
-                                <form>
-                                Name: <input type="text" /><br/>
-                                Email: <input type="text" /><br/>
-                                <input type="submit" text ="submit" value="submit"/>
+                                <form method="POST" action="/project">
+                                    Name: <input type="text" name="name"/><br/>
+                                    Email: <input type="text" name="email" /><br/>
+                                    <input type="hidden" name="project" value="pythonclass">
+                                    <input type="submit" text ="submit" value="submit"/>
                                 </form>
                             </p>
                           </li>
@@ -52,10 +53,12 @@
                     <p>Arranca PR big project for the year is to create a hackerspace in the Northwest of the island and use to provide lessons on computer programming, 3d printing, Product Creation With Arduino and custom manufacturing...</p>
                     <p>In order for it to happen we are planning to launch a kickstarter during late october to raise the funds. If we can raise any funds previous to the kickstarter that would help make our campaign successful.</p>
                     <p>Sign up below to get notification on this event</p>
-                    <form>
-                        Email: <input type="text" /><br/>
-                        <input type="submit" text ="submit" value="submit"/>
-                    </form>
+                    <form method="POST" action="/project">
+                                    Name: <input type="text" name="name"/><br/>
+                                    Email: <input type="text" name="email" /><br/>
+                                    <input type="hidden" name="project" value="hackerspace">
+                                    <input type="submit" text ="submit" value="submit"/>
+                                </form>
 
                     <br>
                     <p>Current Funding 0 dollars of a total 15000 needed</p>
