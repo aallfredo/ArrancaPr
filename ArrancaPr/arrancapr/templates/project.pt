@@ -16,24 +16,20 @@
                 </div>
                 <div class="col-lg-12 text-left">
                     <p>Arranca PR will be teaching organized lessons on skills to get jobs that provide services that can be sold globally.</p>
-                    <p>The first two classes will be:</p>
+                    <p>Classes enrolling:</p>
                     <ul>
                           <li>
-                            <p>12 week basic programming course in python(2.5 hours of class per week)</p>
+                            <p>This is a 4 week course: "How to Create Online Books" (1 hour/class)</p>
                             <p>
-                                Only 10 spots are available for the course. Please register below using a Google email. The class will be given by Alfredo Alvarez via Google hangouts on air. Class will begin on The class will be given by Alfredo Alvarez via google hangouts on air. First day will be on
-                                <strong>October 13th at 7:00 pm</strong>.
+                                Only 10 spots are available for the course. Please register below using a Google email. The class will be given by Alfredo Alvarez via Google hangouts on air. First day will be on
+                                <strong>December 6th at 3:00 pm</strong>.
                                 <form method="POST" action="/project">
                                     Name: <input type="text" name="name"/><br/>
                                     Email: <input type="text" name="email" /><br/>
-                                    <input type="hidden" name="project" value="pythonclass">
+                                    <input type="hidden" name="project" value="books">
                                     <input type="submit" text ="submit" value="submit"/>
                                 </form>
                             </p>
-                          </li>
-                          <li>
-                              <p>This is a 4 week course: "How to Create Online Books" (1 hour/class)</p>
-                              This course registration will open on <strong>October 1st</strong>.
                           </li>
                     </ul>
                     <br>
