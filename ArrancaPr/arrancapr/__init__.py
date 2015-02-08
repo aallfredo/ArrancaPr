@@ -1,3 +1,4 @@
+# coding=utf-8
 from pyramid.config import Configurator
 
 try:
@@ -19,6 +20,8 @@ def main(global_config, **settings):
     config.add_route('about', '/about')
     config.add_route('project', '/project')
     config.add_route('contact', '/contact')
+    config.add_route('media', '/media')
+    config.add_route('hackerspace', '/hackerspace')
     config.scan()
 
     db_url = urlparse(settings['mongo_uri'])

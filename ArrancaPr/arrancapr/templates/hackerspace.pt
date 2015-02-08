@@ -1,0 +1,46 @@
+<div metal:use-macro="layout">
+<div metal:fill-slot="content">
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h1>Campaign</h1>
+                    <p><iframe src="https://www.indiegogo.com/project/arrancapr-s-first-community-hackerspace/embedded" width="222px" height="445px" frameborder="0" scrolling="no"></iframe></p>
+                    <h1>What is a hackerspace?</h1>
+                    <p>Is a place where people with interest in technology and in the creation of products or "hacks" can gather.
+                    This is aligned with our goals in Arranca PR, since it would be ideal to have a center in the island for people to congregate and attend our lessons.
+                    Below are some images of what we expect the place to look.</p>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/hacker1.png')}" height="300px"/>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/hacker2.png')}" height="300px"/>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/hacker3.png')}" height="300px"/>
+                    <h1>Curriculums</h1>
+                    <p>This are the classes that we plan on providing once the center opens</p>
+                    <p>
+                    <a href="${request.static_url('arrancapr:static/img/webdev.png')}"> <image src="${request.static_url('arrancapr:static/img/webdev.png')}" height="400px" /></a>
+                     <a href="${request.static_url('arrancapr:static/img/physicalproducts.png')}"><image src="${request.static_url('arrancapr:static/img/physicalproducts.png')}" height="400px"/></a>
+                     <a href="${request.static_url('arrancapr:static/img/ElectronicProductDevelopment.png')}"><image src="${request.static_url('arrancapr:static/img/ElectronicProductDevelopment.png')}" height="400px"/></a>
+                    </p>
+                    <h1>Press</h1>
+                    <p>Collection of the times we have been featured in a media outlet</p>
+                    <h3>El nuevo dia</h3>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/nuevodiapapel13deenero1.jpg')}" height="300px"/>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/nuevodiapapel13deenero2.jpg')}" height="300px"/>
+                    <a href="http://www.elnuevodia.com/negocios/finanzas/nota/unespacioparaloshackersboricuas-12801/"><image style="margin:5px" src="${request.static_url('arrancapr:static/img/espaciahackers.png')}" height="300px"/></a>
+                    <h3>El sol</h3>
+                    <image style="margin:5px" src="${request.static_url('arrancapr:static/img/PeriodicoelsolOctubre272014.jpg')}" height="300px"/>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="${request.static_url('arrancapr:static/js/jquery-1.10.2.js')}"></script>
+    <script type="text/javascript" src="${request.static_url('arrancapr:static/js/bootstrap.js')}"></script>
+
+
+</div>
+</div>

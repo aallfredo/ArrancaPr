@@ -1,3 +1,4 @@
+# coding=utf-8
 from pyramid.renderers import get_renderer
 from pyramid.view import view_config
 
@@ -48,3 +49,13 @@ def project_view(request):
                 "project":project}
         request.db['ClassRegistration'].insert(post,safe=True)
      return {'project': 'ArrancaPr', "layout": site_layout()}
+
+@view_config(route_name='hackerspace', renderer='templates/hackerspace.pt')
+def hackerspace_view(request):
+
+    return {'project': 'ArrancaPr', "layout": site_layout()}
+
+@view_config(route_name='media', renderer='templates/media.pt')
+def media_view(request):
+
+    return {'project': 'ArrancaPr', "layout": site_layout()}

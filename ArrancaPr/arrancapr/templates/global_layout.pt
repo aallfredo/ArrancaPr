@@ -22,7 +22,7 @@
 
 <body>
 <div class="brand"><img width="100px" height="100px" src="${request.static_url('arrancapr:static/img/logo.png')}" />Arranca PR</div>
-    <div class="address-bar">Isabela PR | contact@arrancapr.org</div>
+    <div class="address-bar">Isabela PR | arrancaprcorp@gmail.com</div>
 
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -45,8 +45,12 @@
                     </li>
                     <li><a href="project">Projects</a>
                     </li>
+                    <li><a href="hackerspace">Hackerspace</a>
+                    </li>
                     <li><a href="contact">Contact</a>
                     </li>
+                    <!--<li><a href="media">Media Kit</a>
+                    </li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -59,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; arrancapr 2014</p>
+                    <p>Copyright &copy; arrancapr 2015</p>
                 </div>
             </div>
         </div>
