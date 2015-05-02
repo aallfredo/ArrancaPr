@@ -21,12 +21,7 @@ def my_view(request):
 
 @view_config(route_name='about', renderer='templates/about.pt')
 def about_view(request):
-
-    return {'project': 'ArrancaPr', "layout": site_layout()}
-
-@view_config(route_name='contact', renderer='templates/contact.pt')
-def contact_view(request):
-    if "name" in request.params:
+  if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
         telephone = request.params["tel"]
@@ -36,18 +31,11 @@ def contact_view(request):
                 "telephone":telephone,
                 "body":body}
         request.db['CustomerComments'].insert(post,safe=True)
-    return {'project': 'ArrancaPr', "layout": site_layout()}
+  return {'project': 'ArrancaPr', "layout": site_layout()}
+
 
 @view_config(route_name='project', renderer='templates/project.pt')
 def project_view(request):
-     if "name" in request.params:
-        personName = request.params["name"]
-        personEmail = request.params["email"]
-        project = request.params["project"]
-        post = {"name":personName,
-                "email":personEmail,
-                "project":project}
-        request.db['ClassRegistration'].insert(post,safe=True)
      return {'project': 'ArrancaPr', "layout": site_layout()}
 
 @view_config(route_name='hackerspace', renderer='templates/hackerspace.pt')
@@ -57,5 +45,28 @@ def hackerspace_view(request):
 
 @view_config(route_name='media', renderer='templates/media.pt')
 def media_view(request):
+
+    return {'project': 'ArrancaPr', "layout": site_layout()}
+
+
+@view_config(route_name='classes', renderer='templates/classes.pt')
+def classes_view(request):
+    if "name" in request.params:
+        personName = request.params["name"]
+        personEmail = request.params["email"]
+        project = request.params["project"]
+        post = {"name":personName,
+                "email":personEmail,
+                "project":project}
+        request.db['ClassRegistration'].insert(post,safe=True)
+
+    liveClasses = []
+    for classes in request.db['Classes'].find({"obsolete":"false"}):
+        liveClasses.append(classes)
+    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveClasses}
+
+
+@view_config(route_name='workshops', renderer='templates/workshops.pt')
+def workshops_view(request):
 
     return {'project': 'ArrancaPr', "layout": site_layout()}

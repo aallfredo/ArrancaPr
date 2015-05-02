@@ -17,6 +17,7 @@
                 </div>
                 <div class="col-md-6">
                     <p>Arranca Pr is a non profit that started due to the concern of people in "diaspora" about the resources available for training and the capital available to acquire machinery in the island.</p>
+                    <p>Our intention is to bring back "technical creation skills" via web-casting and by creating product prototype centers in the island(makerspaces).</p>
                     <p>Founded in 2013.</p>
                     <p>We are a non profit(501c3) in the island of Puerto Rico.</p>
                 </div>
@@ -37,15 +38,96 @@
                     <h3>Widalys Ramos
                         <small>Director</small>
                     </h3>
+                    <p> <a href="mailto:widalys@arrancapr.org"></a> widalys@arrancapr.org </p>
                 </div>
                 <div class="col-sm-6 text-center">
                     <img class="img-responsive" src="${request.static_url('arrancapr:static/img/alfredo.jpg')}" alt="">
                     <h3>Alfredo Alvarez
                         <small>President</small>
                     </h3>
+                    <p> <a href="mailto:alfredo@arrancapr.org"></a> alfredo@arrancapr.org </p>
+                </div>
+
+                 <div class="col-sm-6 text-center">
+                    <img class="img-responsive" src="${request.static_url('arrancapr:static/img/edward.png')}" alt="">
+                    <h3>Edward Betancourt
+                        <small>Vice-President</small>
+                    </h3>
+                    <p> <a href="mailto:edward@arrancapr.org"></a> edward@arrancapr.org </p>
                 </div>
 
                 <div class="clearfix"></div>
+            </div>
+        </div>
+
+     <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact <strong>Arranca PR</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="S6K9BHKAJCY88">
+                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                <p>For mail donations please send a check addressed to the following address:</p>
+                <p><strong>Arranca P.R., Corp. <br>P.O. Box 70  .<br>Isabela P.R. 00662</strong>
+                    </p>
+                    <p>or via bank transfer contact us for details. </p>
+                </div>
+                <div class="col-md-4">
+                    <p>Phone: <strong>(787)-528-0669 </strong>
+                    </p>
+                    <p>Email: <strong>arrancaprcorp@gmail.com</strong>
+                    </p>
+
+                </div>
+                <div class="col-lg-12">
+                    <i>ArrancaPR is a registered 501c3 organization.
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact <strong>form</strong>
+                    </h2>
+                    <hr>
+                    <p> Have a question or a proposition you want us to hear about? Please fill out the form below and we'll get back to you as soon as possible.</p>
+                    <form role="form" method="POST" action="/contact">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" name="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" name="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" name="body" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 

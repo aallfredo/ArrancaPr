@@ -8,7 +8,7 @@ Author-email: UNKNOWN
 License: UNKNOWN
 Description: ArrancaPr README
         Mongo db
-         
+         mongodb://arranca:arranca@ds053469.mongolab.com:53469/arranca
         
         0.0
         ---

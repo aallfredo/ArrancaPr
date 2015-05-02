@@ -41,13 +41,14 @@
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a>
                     </li>
-                    <li><a href="about">About</a>
-                    </li>
+
                     <li><a href="project">Projects</a>
                     </li>
-                    <li><a href="hackerspace">Hackerspace</a>
+                    <li><a href="classes">Classes</a>
                     </li>
-                    <li><a href="contact">Contact</a>
+                    <li><a href="classes">Workshops</a>
+                    </li>
+                    <li><a href="about">About</a>
                     </li>
                     <!--<li><a href="media">Media Kit</a>
                     </li>-->

@@ -1,0 +1,49 @@
+<div metal:use-macro="layout">
+<div metal:fill-slot="content">
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <h2 class="intro-text text-center">
+                <hr>
+                        <strong>Classes</strong>
+                        <hr>
+                    </h2>
+                <ul >
+                <li tal:repeat="offering collection">
+                    <p><b>${offering.name}</b></p>
+                    <p>This is a ${offering.number_of_weeks} week course:  (${offering.class_length})</p>
+                        <p>
+                            Only 10 spots are available for the interactive spots on the course. Please register below using a Google email. The class will be given by ${offering.instructor} via Google hangouts on air. First day will be on
+                            <strong>${offering.starts_by}</strong>.
+                            <form method="POST" action="/classes">
+
+                            <table>
+                            <tbody>
+                                <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name"/></td>
+                                </tr>
+                                <tr>
+                                <td>Email:</td>
+                                <td style="padding-top:3px;"><input type="text" name="email" /></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                                <input type="hidden" name="project" value="{offering.submit_as}">
+                                <input style="margin-top:5px;margin-left:95px" type="submit" text ="Submit" value="submit"/>
+                            </form>
+                        </p>
+                </li>
+                </ul>
+             </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+      <!-- JavaScript -->
+    <script type="text/javascript" src="${request.static_url('arrancapr:static/js/jquery-1.10.2.js')}"></script>
+    <script type="text/javascript" src="${request.static_url('arrancapr:static/js/bootstrap.js')}"></script>
+
+</div>
+</div>

@@ -19,9 +19,10 @@ def main(global_config, **settings):
     config.add_route('home', '/')
     config.add_route('about', '/about')
     config.add_route('project', '/project')
-    config.add_route('contact', '/contact')
     config.add_route('media', '/media')
     config.add_route('hackerspace', '/hackerspace')
+    config.add_route('classes', '/classes')
+    config.add_route('workshops', '/workshops')
     config.scan()
 
     db_url = urlparse(settings['mongo_uri'])
