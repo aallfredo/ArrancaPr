@@ -2,8 +2,42 @@
 <div metal:fill-slot="content">
 
     <div class="container">
+        <div class="row">
+            <div class="box">
+                <h2 class="intro-text text-center">
+                <hr>
+                        <strong>Workshops</strong>
+                        <p>These are one day events. Used to do a talk on a topic a guided tutorial or an introduction without a commitment</p>
+                <hr>
+                    </h2>
+                <ul >
+                <li tal:repeat="offering collection">
+                    <p><b>${offering.name}</b></p>
+                        <p>
+                            Only 10 spots are available for the interactive spots on the workshop. Please register below using a Google email. Will be given by ${offering.instructor} via Google hangouts on air. On
+                            <strong>${offering.date}</strong>. It will last ${offering.duration}
+                            <form method="POST" action="/workshops">
 
-
+                            <table>
+                            <tbody>
+                                <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name"/></td>
+                                </tr>
+                                <tr>
+                                <td>Email:</td>
+                                <td style="padding-top:3px;"><input type="text" name="email" /></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                                <input type="hidden" name="project" value="{offering.submit_as}">
+                                <input style="margin-top:5px;margin-left:95px" type="submit" text ="Submit" value="submit"/>
+                            </form>
+                        </p>
+                </li>
+                </ul>
+             </div>
+        </div>
     </div>
     <!-- /.container -->
 

@@ -68,5 +68,17 @@ def classes_view(request):
 
 @view_config(route_name='workshops', renderer='templates/workshops.pt')
 def workshops_view(request):
+    if "name" in request.params:
+        personName = request.params["name"]
+        personEmail = request.params["email"]
+        project = request.params["project"]
+        post = {"name":personName,
+                "email":personEmail,
+                "project":project}
+        request.db['ClassRegistration'].insert(post,safe=True)
 
-    return {'project': 'ArrancaPr', "layout": site_layout()}
+
+    liveWorkshops = []
+    for w in request.db['Workshops'].find({"obsolete":"false"}):
+        liveWorkshops.append(w)
+    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveWorkshops}
