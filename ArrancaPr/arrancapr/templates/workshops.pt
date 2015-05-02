@@ -7,9 +7,11 @@
                 <h2 class="intro-text text-center">
                 <hr>
                         <strong>Workshops</strong>
-                        <p>These are one day events. Used to do a talk on a topic a guided tutorial or an introduction without a commitment</p>
-                <hr>
+
+
                     </h2>
+                    <p class="text-center">These are one day events. Used to do a talk on a topic a guided tutorial or an introduction without a commitment</p>
+                    <hr>
                 <ul >
                 <li tal:repeat="offering collection">
                     <p><b>${offering.name}</b></p>
