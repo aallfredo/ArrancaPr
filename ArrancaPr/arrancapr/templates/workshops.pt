@@ -10,14 +10,14 @@
 
 
                     </h2>
-                    <p class="text-center">These are one day events. Used to do a talk on a topic a guided tutorial or an introduction without a commitment</p>
+                    <p class="text-center">One day events; a talk on a topic, a guided tutorial or an introduction without a commitment.</p>
                     <hr>
                 <ul >
                 <li tal:repeat="offering collection">
                     <p><b>${offering.name}</b></p>
                         <p>
-                            Only 10 spots are available for the interactive spots on the workshop. Please register below using a Google email. Will be given by ${offering.instructor} via Google hangouts on air. On
-                            <strong>${offering.date}</strong>. It will last ${offering.duration}
+                            Only 10 spots are available for the interactive spots on the workshop. Please register below using a Google email. Given by ${offering.instructor} via Google hangouts on air.
+                            <strong>${offering.date}</strong> (${offering.duration}).
                             <form method="POST" action="/workshops">
 
                             <table>

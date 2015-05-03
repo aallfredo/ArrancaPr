@@ -102,7 +102,7 @@
                     </h2>
                     <hr>
                     <p> Have a question or a proposition you want us to hear about? Please fill out the form below and we'll get back to you as soon as possible.</p>
-                    <form role="form" method="POST" action="/contact">
+                    <form role="form" method="POST" action="/about">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Name</label>
