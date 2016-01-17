@@ -10,17 +10,19 @@ def site_layout():
 
 @view_config(route_name='home', renderer='templates/index.pt')
 def my_view(request):
+    showMessage = False
     if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
         post = {"name":personName,
                 "email":personEmail}
-
         request.db['MemberRegistration'].insert(post,safe=True)
-    return {'project': 'ArrancaPr', "layout": site_layout()}
+        showMessage = True
+    return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
 @view_config(route_name='about', renderer='templates/about.pt')
 def about_view(request):
+  showMessage = False
   if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
@@ -31,7 +33,8 @@ def about_view(request):
                 "telephone":telephone,
                 "body":body}
         request.db['CustomerComments'].insert(post,safe=True)
-  return {'project': 'ArrancaPr', "layout": site_layout()}
+        showMessage = True
+  return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
 
 @view_config(route_name='project', renderer='templates/project.pt')
