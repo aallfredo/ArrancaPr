@@ -62,7 +62,7 @@ def classes_view(request):
         post = {"name":personName,
                 "email":personEmail,
                 "project":project}
-        request.db['ClassRegistration'].insert(post,safe=True)
+        request.db['ClassRegistration2016'].insert(post,safe=True)
         showMessage = True
     liveClasses = []
     for classes in request.db['Classes'].find({"obsolete":"false"}):
@@ -80,7 +80,7 @@ def workshops_view(request):
         post = {"name":personName,
                 "email":personEmail,
                 "project":project}
-        request.db['ClassRegistration'].insert(post,safe=True)
+        request.db['ClassRegistration2016'].insert(post,safe=True)
         showMessage = True
 
     liveWorkshops = []
