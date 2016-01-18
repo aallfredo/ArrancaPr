@@ -132,7 +132,7 @@
     </script>
     <div tal:condition="msg">
         <script>
-            BootstrapDialog.alert('Thanks for becoming a member of our organization you can expect monthly updates with events and description of our classes.');
+            BootstrapDialog.alert('Thanks for becoming a member of our organization, you can expect monthly updates with events and description of our classes.');
         </script>
     </div>
 </div>

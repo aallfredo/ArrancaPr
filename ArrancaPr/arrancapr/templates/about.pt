@@ -34,13 +34,6 @@
                     <hr>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive" src="${request.static_url('arrancapr:static/img/widalis.jpg')}" alt="">
-                    <h3>Widalys Ramos
-                        <small>Director</small>
-                    </h3>
-                    <p> <a href="mailto:widalys@arrancapr.org"></a> widalys@arrancapr.org </p>
-                </div>
-                <div class="col-sm-6 text-center">
                     <img class="img-responsive" src="${request.static_url('arrancapr:static/img/alfredo.jpg')}" alt="">
                     <h3>Alfredo Alvarez
                         <small>President</small>
@@ -137,6 +130,11 @@
      <!-- JavaScript -->
     <script type="text/javascript" src="${request.static_url('arrancapr:static/js/jquery-1.10.2.js')}"></script>
     <script type="text/javascript" src="${request.static_url('arrancapr:static/js/bootstrap.js')}"></script>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+ <div tal:condition="msg">
+        <script>
+            BootstrapDialog.alert('Thanks for your comment we will reply as soon as we can.');
+        </script>
+    </div>
 </div>
 </div>

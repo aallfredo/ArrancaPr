@@ -30,7 +30,7 @@
                                 </tr>
                             </tbody>
                             </table>
-                                <input type="hidden" name="project" value="{offering.submit_as}">
+                                <input type="hidden" name="project" value="${offering.submit_as}">
                                 <input style="margin-top:5px;margin-left:95px" type="submit" text ="Submit" value="submit"/>
                             </form>
                         </p>
@@ -44,6 +44,11 @@
       <!-- JavaScript -->
     <script type="text/javascript" src="${request.static_url('arrancapr:static/js/jquery-1.10.2.js')}"></script>
     <script type="text/javascript" src="${request.static_url('arrancapr:static/js/bootstrap.js')}"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+    <div tal:condition="msg">
+        <script>
+            BootstrapDialog.alert('Thanks for joining the class you will receive updaes and invites to the sessions via the enrolled email.');
+        </script>
+    </div>
 </div>
 </div>

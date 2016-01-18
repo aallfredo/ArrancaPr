@@ -54,6 +54,7 @@ def media_view(request):
 
 @view_config(route_name='classes', renderer='templates/classes.pt')
 def classes_view(request):
+    showMessage = False
     if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
@@ -62,15 +63,16 @@ def classes_view(request):
                 "email":personEmail,
                 "project":project}
         request.db['ClassRegistration'].insert(post,safe=True)
-
+        showMessage = True
     liveClasses = []
     for classes in request.db['Classes'].find({"obsolete":"false"}):
         liveClasses.append(classes)
-    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveClasses}
+    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveClasses, "msg": showMessage}
 
 
 @view_config(route_name='workshops', renderer='templates/workshops.pt')
 def workshops_view(request):
+    showMessage = False
     if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
@@ -79,9 +81,9 @@ def workshops_view(request):
                 "email":personEmail,
                 "project":project}
         request.db['ClassRegistration'].insert(post,safe=True)
-
+        showMessage = True
 
     liveWorkshops = []
     for w in request.db['Workshops'].find({"obsolete":"false"}):
         liveWorkshops.append(w)
-    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveWorkshops}
+    return {'project': 'ArrancaPr', "layout": site_layout(), "collection":liveWorkshops, "msg": showMessage}
