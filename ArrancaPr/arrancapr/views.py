@@ -16,7 +16,7 @@ def my_view(request):
         personEmail = request.params["email"]
         post = {"name":personName,
                 "email":personEmail}
-        request.db['MemberRegistration'].insert(post,safe=True)
+        request.db['MemberRegistration'].insert(post)
         showMessage = True
     return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
@@ -32,7 +32,7 @@ def about_view(request):
                 "email":personEmail,
                 "telephone":telephone,
                 "body":body}
-        request.db['CustomerComments'].insert(post,safe=True)
+        request.db['CustomerComments'].insert(post)
         showMessage = True
   return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
@@ -62,7 +62,7 @@ def classes_view(request):
         post = {"name":personName,
                 "email":personEmail,
                 "project":project}
-        request.db['ClassRegistration2016'].insert(post,safe=True)
+        request.db['ClassRegistration2016'].insert(post)
         showMessage = True
     liveClasses = []
     for classes in request.db['Classes'].find({"obsolete":"false"}):
@@ -80,7 +80,7 @@ def workshops_view(request):
         post = {"name":personName,
                 "email":personEmail,
                 "project":project}
-        request.db['ClassRegistration2016'].insert(post,safe=True)
+        request.db['ClassRegistration2016'].insert(post)
         showMessage = True
 
     liveWorkshops = []
