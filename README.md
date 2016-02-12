@@ -1,4 +1,4 @@
 ArrancaPr
 =========
 
-HomePage of The ArrancaPr non profit currentyl version one is not complete
+Homepage of the ArrancaPr, a non-profit organization, currently on version one, is not complete.
