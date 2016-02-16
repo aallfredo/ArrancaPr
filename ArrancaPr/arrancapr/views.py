@@ -36,10 +36,6 @@ def about_view(request):
         showMessage = True
   return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
-@view_config(route_name='calendar', renderer='templates/calendar.pt')
-def project_view(request):
-     return {'calendar': 'ArrancaPr', "layout": site_layout()}
-
 
 @view_config(route_name='project', renderer='templates/project.pt')
 def project_view(request):
