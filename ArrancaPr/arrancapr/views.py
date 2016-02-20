@@ -37,7 +37,7 @@ def about_view(request):
   return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
 
 @view_config(route_name='calendar', renderer='templates/calendar.pt')
-def hackerspace_view(request):
+def calendar_view(request):
     return {'project': 'ArrancaPr', "layout": site_layout()}
   
 @view_config(route_name='project', renderer='templates/project.pt')
