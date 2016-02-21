@@ -16,7 +16,8 @@
                 <li tal:repeat="offering collection">
                     <p><b>${offering.name}</b></p>
                         <p>
-                            Only 10 spots are available for the interactive spots on the workshop. Please register below using a Google email. Given by ${offering.instructor} via Google hangouts on air.
+                            <span tal:condition="offering.taught_via == 'Google Hangouts On Air'" >    Only 10 spots are available for the interactive spots on the workshop. Please register below using a Google email. Given by ${offering.instructor} via Google hangouts on air. </span>
+                            <span tal:condition="offering.taught_via != 'Google Hangouts On Air'" >${offering.description} ${offering.taught_via} by ${offering.instructor}</span>
                             <strong>${offering.date}</strong> (${offering.duration}).
                             <form method="POST" action="/workshops">
 
