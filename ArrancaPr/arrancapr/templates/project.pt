@@ -36,7 +36,7 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-left">
-                    <p>Last year we worked on creating a Hackerspace/Makerspace in the island we decided to join forces with a community led group <a href="https://www.facebook.com/Makerspacepr/">Makerspace PR</a> helping them get the equipment they need. With the donations provided in the indiegogo we were able to provide them with the following:</p>
+                    <p><a href="/hackerspace">Last year</a> we worked on creating a Hackerspace/Makerspace in the island we decided to join forces with a community led group <a href="https://www.facebook.com/Makerspacepr/">Makerspace PR</a> helping them get the equipment they need. With the donations provided in the indiegogo we were able to provide them with the following:</p>
                     <ul>
                         <li>CnC - Shapeoko 3 kit that will let them explore manufacturing with Cnc technologies</li>
                         <li>Hitop I3 - 3d printer that will allow them to do additive manufacturing</li>
@@ -53,6 +53,58 @@
                     </form>
                     </p>
                 </div>
+
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Local business web page development</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p> In order to support local businesses, promote better information on the web and opportunity for our students to create a portfolio, we will be creating one page presentations web pages containing a contact form. For more details or if interested in participating contact <a href="mailto:jorge@arrancapr.org"> jorge@arrancapr.org </a> Note there are limited spaces available.</p>
+                    <br>
+                </div>
+
+
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Online mentorship opportunities</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p> Coming Soon! We will be providing students that want to continue their career as web developers. A chance to connect with professional developers on the feel to get advice on their technical skills. Note to qualify for this you have to participate in one of our online courses. Contact <a href="mailto:xavier@arrancapr.org"> xavier@arrancapr.org </a> for more or info or if you want to sponsor the program.</p>
+                    <br>
+                </div>
+
+
+                  <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Local Professional Chapters</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p> These are presential events on the difference cities in the US where puertorican professionals can connect with each other. Info of event at <a href="https://www.facebook.com/arrancaprcorp/events">facebook</a> (Boston is the pilot).    If you have a program that you are interested in us mentioning or want to coordinate a chapter for your city please email:<a href="mailto:francine@arrancapr.org">francine@arrancapr.org</a> </p>
+                    <br>
+                </div>
+
+
+
+                  <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Expert Courses</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p> Coming Soon! Classes for advanced technical skills to be offered in Colleges via web cam or to businesses on the island. Note this is not a free program. If interested in what we got so far or sponsoring us, email: <a href="mailto:francine@arrancapr.org">alfredo@arrancapr.org</a> </p>
+                    <br>
+                </div>
+
+
+
+
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center"><strong>Corporate Overhead</strong>
@@ -62,7 +114,7 @@
                 <div class="col-lg-12 text-left">
                     <p>ArrancaPR is a non profit(501c3)  corporation in Puerto Rico. In order to comply with all the rules and regulations this entitles, we have a director on staff, lawyers fees and accounting procedures that need to be done. This project will always be here in order to give transparency and allow donors to know where he/she is contributing his money.</p>
                     <br>
-                    <p>Current Funding $0 dollars of a total $9000 needed</p>
+                    <p>Current Funding $120 dollars of a total $10000 needed</p>
                     <p><i>Ideally we would like to raise $20000 a year so that we could hire a director position full time and apply to grants to fund the rest of the projects.</i><p>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
