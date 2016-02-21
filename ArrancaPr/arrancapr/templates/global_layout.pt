@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="${request.static_url('arrancapr:static/img/favicon.ico?')}" type="image/x-icon" />
+    <link rel="icon" href="${request.static_url('arrancapr:static/img/favicon.ico')}" type="image/x-icon" />
     <title>ArrancaPR: Creciendo con Puerto Rico en el nuevo milenio</title>
 
     <!-- Bootstrap core CSS -->
