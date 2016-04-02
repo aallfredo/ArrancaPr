@@ -27,81 +27,95 @@
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Our <strong>Volunteers</strong>
-                    </h2>
-                    <hr>
+              <div class="row">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Our <strong>Volunteers</strong>
+                        </h2>
+                        <hr>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <img class="img-responsive center-block" title="ICOM 08, Microsoft Ex-alumni, founding member works at georiot" src="${request.static_url('arrancapr:static/img/alfredo.jpg')}" alt="ICOM 08, Microsoft Ex-alumni, founding member works at georiot">
+                        <h3>Alfredo Alvarez<br/>
+                            <small>President</small>
+                        </h3>
+                        <p> <a href="mailto:alfredo@arrancapr.org"> alfredo@arrancapr.org </a></p>
+                    </div>
+
+                     <div class="col-sm-5 text-center">
+                        <img class="img-responsive center-block" title="Lincoln Labs, Ex-Cto shelfie, Sr. Dev Infoscout" src="${request.static_url('arrancapr:static/img/edward.png')}" alt="Lincoln Labs, Ex-Cto shelfie, Sr. Dev Infoscout">
+                        <h3>Edward Betancourt<br/>
+                            <small>Vice-President</small>
+                        </h3>
+                        <p> <a href="mailto:edward@arrancapr.org"> edward@arrancapr.org </a></p>
+                    </div>
                 </div>
-                <div class="col-sm-6 text-center">
-                    <img class="img-responsive center-block" title="ICOM 08, Microsoft Ex-alumni, founding member works at georiot" src="${request.static_url('arrancapr:static/img/alfredo.jpg')}" alt="ICOM 08, Microsoft Ex-alumni, founding member works at georiot">
-                    <h3>Alfredo Alvarez<br/>
-                        <small>President</small>
-                    </h3>
-                    <p> <a href="mailto:alfredo@arrancapr.org"> alfredo@arrancapr.org </a></p>
+                 <div class="row">
+                    <div class="col-sm-5 col-sm-offset-1 text-center">
+                        <img class="img-responsive center-block" title="INME Graduate EIT, Dentistry Student"
+                         src="${request.static_url('arrancapr:static/img/nestor.png')}"
+                         alt="INME Graduate EIT, Dentistry Student">
+                        <h3>Nestor Alvarez<br/>
+                            <small>Secretary</small>
+                        </h3>
+                        <p> <a href="mailto:nestor@arrancapr.org">nestor@arrancapr.org</a>  </p>
+                    </div>
+
+
+                     <div class="col-sm-6 text-center">
+                        <img class="img-responsive center-block" title="an expert in the study of Harry Potter & Disney Sometimes she dabbles in Marketing & International PPC you know for work & money"
+                         src="${request.static_url('arrancapr:static/img/francine.png')}"
+                         alt="an expert in the study of Harry Potter & Disney Sometimes she dabbles in Marketing & International PPC you know for work & money">
+                        <h3>Francine<br/>
+                            <small>Advertisement Director</small>
+                        </h3>
+                        <p> <a href="mailto:francine@arrancapr.org">francine@arrancapr.org</a>  </p>
+                    </div>
                 </div>
+                <div class="row">
+                     <div class="col-sm-5 col-sm-offset-1 text-center">
+                        <img class="img-responsive center-block" title="mofongo-loving ICOM RUM graduate and web architect, originally from Yauco, who's made NYC his home for the last 5 years."
+                         src="${request.static_url('arrancapr:static/img/xavier.png')}"
+                         alt="mofongo-loving ICOM RUM graduate and web architect, originally from Yauco, who's made NYC his home for the last 5 years.">
+                        <h3>Xavier Lopez<br/>
+                            <small>Mentor Program Leader / Web App Developer</small>
+                        </h3>
+                        <p> <a href="mailto:xavier@arrancapr.org">xavier@arrancapr.org </a> </p>
+                    </div>
 
-                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive center-block" title="Lincoln Labs, Ex-Cto shelfie, Sr. Dev Infoscout" src="${request.static_url('arrancapr:static/img/edward.png')}" alt="Lincoln Labs, Ex-Cto shelfie, Sr. Dev Infoscout">
-                    <h3>Edward Betancourt<br/>
-                        <small>Vice-President</small>
-                    </h3>
-                    <p> <a href="mailto:edward@arrancapr.org"> edward@arrancapr.org </a></p>
+
+                     <div class="col-sm-6 text-center">
+                        <img class="img-responsive center-block" title="IT professional with 18 years of experience. He works with the Federal Government and as an Adjunct Professor of Computer Science. Jorge grew-up in Yabucoa, PR and resides in the Washington, DC Metro area."
+                         src="${request.static_url('arrancapr:static/img/jorge.jpg')}"
+                         alt=" IT professional with 18 years of experience. He works with the Federal Government and as an Adjunct Professor of Computer Science. Jorge grew-up in Yabucoa, PR and resides in the Washington, DC Metro area.">
+                        <h3>Jorge Sepulveda<br/>
+                            <small>Web Pages For Business Lead / Web App Developer</small>
+                        </h3>
+                        <p> <a href="mailto:jorge@arrancapr.org"> jorge@arrancapr.org </a></p>
+                        <br/>
+                        <br/>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-5 col-sm-offset-1 text-center">
+                        <img class="img-responsive center-block" title="Passionate with Technology, Knowledge on E-commerce systems and loves using his web development skills to help projects like ArrancaPR"
+                         src="${request.static_url('arrancapr:static/img/edwin.png')}"
+                         alt="Passionate with Technology, Knowledge on E-commerce systems and loves using his web development skills to help projects like ArrancaPR">
+                        <h3>Edwin Martinez<br/>
+                            <small>Workshop Instructor</small>
+                        </h3>
+                        <p> <a href="mailto:edwin@arrancapr.org"> edwin@arrancapr.org </a></p>
+                    </div>
 
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive center-block" title="INME Graduate EIT, Dentistry Student"
-                     src="${request.static_url('arrancapr:static/img/nestor.png')}"
-                     alt="INME Graduate EIT, Dentistry Student">
-                    <h3>Nestor Alvarez<br/>
-                        <small>Secretary</small>
-                    </h3>
-                    <p> <a href="mailto:nestor@arrancapr.org">nestor@arrancapr.org</a>  </p>
-                </div>
-
-
-                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive center-block" title="an expert in the study of Harry Potter & Disney Sometimes she dabbles in Marketing & International PPC you know for work & money"
-                     src="${request.static_url('arrancapr:static/img/francine.png')}"
-                     alt="an expert in the study of Harry Potter & Disney Sometimes she dabbles in Marketing & International PPC you know for work & money">
-                    <h3>Francine<br/>
-                        <small>Advertisement Director</small>
-                    </h3>
-                    <p> <a href="mailto:francine@arrancapr.org">francine@arrancapr.org</a>  </p>
-                </div>
-
-
-                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive center-block" title="mofongo-loving ICOM RUM graduate and web architect, originally from Yauco, who's made NYC his home for the last 5 years."
-                     src="${request.static_url('arrancapr:static/img/xavier.png')}"
-                     alt="mofongo-loving ICOM RUM graduate and web architect, originally from Yauco, who's made NYC his home for the last 5 years.">
-                    <h3>Xavier Lopez<br/>
-                        <small>Mentor Program Leader / Web App Developer</small>
-                    </h3>
-                    <p> <a href="mailto:xavier@arrancapr.org">xavier@arrancapr.org </a> </p>
-                </div>
-
-
-                 <div class="col-sm-6 text-center">
-                    <img class="img-responsive center-block" title="IT professional with 18 years of experience. He works with the Federal Government and as an Adjunct Professor of Computer Science. Jorge grew-up in Yabucoa, PR and resides in the Washington, DC Metro area."
-                     src="${request.static_url('arrancapr:static/img/jorge.jpg')}"
-                     alt=" IT professional with 18 years of experience. He works with the Federal Government and as an Adjunct Professor of Computer Science. Jorge grew-up in Yabucoa, PR and resides in the Washington, DC Metro area.">
-                    <h3>Jorge Sepulveda<br/>
-                        <small>Web Pages For Business Lead / Web App Developer</small>
-                    </h3>
-                    <p> <a href="mailto:jorge@arrancapr.org"> jorge@arrancapr.org </a></p>
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive center-block" title="Passionate with Technology, Knowledge on E-commerce systems and loves using his web development skills to help projects like ArrancaPR"
-                     src="${request.static_url('arrancapr:static/img/edwin.png')}"
-                     alt="Passionate with Technology, Knowledge on E-commerce systems and loves using his web development skills to help projects like ArrancaPR">
-                    <h3>Edwin Martinez<br/>
-                        <small>Workshop Instructor</small>
-                    </h3>
-                    <p> <a href="mailto:edwin@arrancapr.org"> edwin@arrancapr.org </a></p>
+                       <div class="col-sm-6 text-center">
+                        <img class="img-responsive center-block" title="Passionate with Technology, Knowledge on E-commerce systems and loves using his web development skills to help projects like ArrancaPR"
+                         src="${request.static_url('arrancapr:static/img/carlos.jpg')}"
+                         alt="Web designer and developer passionate about javascript">
+                        <h3>Carlos Morales<br/>
+                            <small>Class Instructor</small>
+                        </h3>
+                        <p> <a href="mailto:carlos@arrancapr.org"> carlos@arrancapr.org </a></p>
+                    </div>
                 </div>
 
                 <div class="clearfix"></div>
