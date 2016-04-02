@@ -85,10 +85,13 @@
                             <img src="${request.static_url('arrancapr:static/img/github.png')}" width="60px"/>
                         </a>
                     </div>
+                    <h3> Sponsors: </h3>
+                    <a href="https://www.gearhost.com?refcode=g46w6pjuczdu" ><img src="${request.static_url('arrancapr:static/img/gearhost.png')}" height="80px"/></a>
                     <p>Copyright &copy; ArrancaPR 2016</p>
                     <!--<a href="/media">Media Kit</a>-->
                 </div>
             </div>
+
         </div>
 </footer>
 </body>
