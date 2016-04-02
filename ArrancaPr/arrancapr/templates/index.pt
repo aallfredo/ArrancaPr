@@ -104,7 +104,16 @@
                          <div class="form-group">
                           <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" name="email"/>
-                      </div>
+                        </div>
+                        <div class="radio">
+                          <label><input type="radio" name="optradio" value="Customer" checked>Customer</label>
+                        </div>
+                        <div class="radio">
+                          <label><input type="radio" name="optradio" value="Instructor" >Instructor</label>
+                        </div>
+                        <div class="radio">
+                          <label><input type="radio" name="optradio" value="Volunteer" >Volunteer</label>
+                        </div>
                       <div class="form-group text-center">
                      <button type="submit" name="submit" class="btn btn-default" id="submit"> Submit </button>
                         </div>

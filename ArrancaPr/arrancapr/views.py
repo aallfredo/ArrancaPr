@@ -1,7 +1,7 @@
 # coding=utf-8
 from pyramid.renderers import get_renderer
 from pyramid.view import view_config
-
+from datetime import datetime
 
 def site_layout():
     renderer = get_renderer("templates/global_layout.pt")
@@ -14,8 +14,11 @@ def my_view(request):
     if "name" in request.params:
         personName = request.params["name"]
         personEmail = request.params["email"]
+        ctype = request.params["optradio"]
         post = {"name":personName,
-                "email":personEmail}
+                "email":personEmail,
+                "participation_type":ctype,
+                "date": datetime.now()}
         request.db['MemberRegistration'].insert(post)
         showMessage = True
     return {'project': 'ArrancaPr', "layout": site_layout(), "msg": showMessage}
